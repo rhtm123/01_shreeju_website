@@ -153,6 +153,7 @@ export default function Home() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
+                
                 <div data-aos="flip-right" className="hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
                   {/* <svg
                     className="flex-shrink-0 mt-1 size-6 text-secondary"
