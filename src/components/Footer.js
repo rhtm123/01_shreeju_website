@@ -14,7 +14,7 @@ function Footer() {
   <aside data-aos="fade" >
     <div className='py-4'>
       <span>Select Theme: </span>
-      <select className="select bg-primary select-sm select-bordered	" value={theme} onChange={e => setTheme(e.target.value)}>
+      <select className="select bg-primary select-sm select-bordered border-base-200" value={theme} onChange={e => setTheme(e.target.value)}>
         <option value="system">System</option>
         <option  value="light">Light</option>
         <option value="dark">Dark</option>

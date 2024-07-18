@@ -106,7 +106,7 @@ export default function Home() {
           
           {/* Grid */}
           <div className="mt-5 md:my-8 grid md:grid-cols-3 gap-8 md:gap-12">
-            <div className="md:col-span-1">
+            <div data-aos="fade-right" className="md:col-span-1">
               <h2 className="font-bold text-2xl md:text-4xl text-base-100">
                 Our Services
               </h2>
@@ -265,15 +265,14 @@ export default function Home() {
           className="hover:scale-110 transition-all duration-500 card text-base-100 bg-secondary rounded-box  py-8 flex-grow place-items-center"
           target="_blank"
           rel="noopener noreferrer"
-        
-          
+          data-aos="fade-down-right"
           >
     <FaWhatsappSquare size={36} />
     Contact us
   </a>
   <div className="divider lg:divider-horizontal">OR</div>
 
-  <a className="hover:scale-110 transition-all duration-500 text-base-100 card bg-primary rounded-box  py-8 flex-grow place-items-center" href={"tel:"+process.env.MOBILE_NUMBER}>
+  <a data-aos="fade-down-left" className="hover:scale-110 transition-all duration-500 text-base-100 card bg-primary rounded-box  py-8 flex-grow place-items-center" href={"tel:"+process.env.MOBILE_NUMBER}>
 
     <FaPhoneSquareAlt size={36} />
     Contact us 
@@ -282,8 +281,8 @@ export default function Home() {
 
 
 <section id="whyus" data-aos="fade" className="px-4 bg-base-200 py-16 md:px-8">
-  <h2 className="text-4xl font-bold mb-4 text-center">Why us?</h2>
-  <p className="text-xl text-center opacity-90 mb-8">Here's why you should choose Shreeju Investments.</p>
+  <h2 data-aos="zoom-in-down" className="text-4xl font-bold mb-4 text-center">Why us?</h2>
+  <p data-aos="zoom-in-up" className="text-xl text-center opacity-90 mb-8">Here's why you should choose Shreeju Investments.</p>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div className="shadow-md text-center p-6 bg-base-200 hover:bg-base-300 transition duration-300 rounded-lg" data-aos="fade-up">
       <div className="mb-4 flex justify-center" >
@@ -322,23 +321,23 @@ export default function Home() {
 <section className="p-4 md:p-8 grid gap-4 grid-cols-1 md:grid-cols-2">
 
 
-<div className="bg-base-200 p-4 md:p-8 rounded-2xl">
+<div data-aos="zoom-out-right" className="bg-base-200 p-4 md:p-8 rounded-2xl">
   
 
 <h1 className="text-2xl bold">Point of Contact</h1>
 
 
 
-        <div class="">
+        <div className="">
               
-              <div class="grow">
-                <p class="mb-1 font-bold">
+              <div className="grow">
+                <p className="mb-1 font-bold">
                   Support
                 </p>
-                <p class="">
+                <p className="">
                   codingchaska.info@gmail.com
                 </p>
-                <p class="">
+                <p className="">
                   +91 9518-90-1902, +91 9370-39-4747
                 </p>
               </div>
@@ -346,16 +345,16 @@ export default function Home() {
 
 
           <br />
-            <div class="">
+            <div className="">
               
-              <div class="grow">
-                <p class="mb-1 font-bold">
+              <div className="grow">
+                <p className="mb-1 font-bold">
                   Address
                 </p>
-                <p class="">
+                <p className="">
                   005/3, Jai Vijay Nagar Building
                 </p>
-                <p class="">
+                <p className="">
                   Opposite Seven Square School, Naigaon East, Mumbai
                 </p>
               </div>
@@ -372,7 +371,7 @@ export default function Home() {
 
 
 
-        <div className="bg-base-200 p-8 rounded-2xl">
+        <div data-aos="zoom-out-left" className="bg-base-200 p-8 rounded-2xl">
             <h2 className="text-4xl font-bold text-center ">Contact us now</h2>
             <ContactForm />
         </div>
