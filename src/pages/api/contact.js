@@ -19,7 +19,6 @@ export default async function handler(req, res) {
                 <p>Hello,</p>
                 <p>You have received a new message from your website:</p>
                 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
-                    <p>Someone has contacted us for IT Services</p>
                     <p><strong>Name:</strong> ${name}</p>
                     <p><strong>Email:</strong> ${email}</p>
                     <p><strong>Mobile:</strong> ${mobile}</p>
@@ -32,7 +31,7 @@ export default async function handler(req, res) {
         `;
 
         try {
-            await sendEmail(["maurya.iitk@gmail.com","dhirusingh9271@gmail.com", "growtechlab7@gmail.com"], `${name} has contact from GrowTech Lab`, htmlContent);
+            await sendEmail(["maurya.iitk@gmail.com","dhirusingh9271@gmail.com", "growtechlab7@gmail.com"], `${name} has contacted from Shreeju Investments Website`, htmlContent);
             res.status(200).json({ message: "Success: email was sent" });
         } catch (error) {
             console.log(error);
