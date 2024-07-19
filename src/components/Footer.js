@@ -1,10 +1,29 @@
 import { useTheme } from 'next-themes'
 import Link from 'next/link';
+import React from 'react';
 
 
 function Footer() {
   const { theme, setTheme } = useTheme();
 
+  React.useEffect(() => {
+    // Function to create and append the script element
+    const loadScript = async () => {
+        const script = document.createElement('script');
+        script.src = 'https://thelearningsetu.com/static/js/gt.js'; // Replace with your script path
+        script.async = true; // Optional: Load script asynchronously (recommended)
+
+        document.body.appendChild(script);
+    };
+    // Load the script only once
+    loadScript();
+    
+
+    // Optional cleanup function to remove the script if needed
+    return () => {
+        // Code to remove the script (if applicable)
+    };
+}, []);
 
     return (
 

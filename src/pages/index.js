@@ -36,14 +36,14 @@ export default function Home() {
      <section data-aos="fade">
       <div className="min-h-screen relative overflow-hidden flex hero">
         <img
-          src="https://cdn.corporatefinanceinstitute.com/assets/income-investing.jpeg"
+          src="https://pixabay.com/get/g67125ef96a1d614a68d9140e37e7328b32cce52a40df38903885e796d757230902f80b37108f0caba142ad898d41a900b50bf65f4f27551f0229aafc156af8676028b6d424c8f17648a9987d71f9a656_640.jpg"
           alt="Healthy Family"
            data-aos="fade"
           className="absolute inset-0 object-cover w-full h-full"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary opacity-100"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary via-current to-current opacity-90"></div>
         <div className="relative mx-auto md:py-4 py-12 px-4 md:px-8 pt-18 pb-10 flex flex-wrap justify-center items-center">
-          <div  data-aos="fade-right" className="w-full md:w-7/12 px-4 flex flex-wrap justify-content-center">
+          <div  data-aos="fade" className="w-full md:w-7/12 px-4 flex flex-wrap justify-content-center">
             <h1 className="text-4xl text-base-100 bg-base-content bg-opacity-60 py-2 px-4 font-bold text-left mb-8">
             Grow Your Wealth Secure Your Future with Shreeju Investments
             </h1>
@@ -58,7 +58,7 @@ export default function Home() {
             <a 
           
             href={"https://wa.me/"+process.env.WA_number}
-            className="btn md:ml-2"
+            className="btn ml-2"
             target="_blank"
             rel="noopener noreferrer"
           
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-5/12 px-4 md:py-4 py-12">
           <img
-              src="https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://pixabay.com/get/g2e4a3e2de3c62cc88d4127aabdf0de7c0891aff786ce73d6378a31e0125f6006165147da685d91416c2d0604015a3a7a04ca4c159702fda4509fc65c9a39ee30fc15c187c8f24e4f2bb9dd6e58cfa4f4_640.png"
               className="w-full rounded-xl"
             />
             
@@ -82,7 +82,7 @@ export default function Home() {
 
       <section className="py-12 md:py-24 bg-base-200">
       <div data-aos="fade" className="container px-6 lg:px-8 flex flex-col lg:flex-row items-center">
-        <div data-aos="fade-down-right" className="lg:w-1/2  lg:mb-0 lg:pr-8 flex lg:justify-end">
+        <div data-aos="fade-up" className="lg:w-1/2  lg:mb-0 lg:pr-8 flex lg:justify-end">
           <h2 className="text-2xl font-bold text-primary mb-4">WHO WE ARE</h2>
         </div>
         <div className="lg:hidden flex items-center justify-center mb-4">
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="hidden lg:flex lg:flex-col md:px-2 items-center lg:justify-center mb-4">
           <PiLineVerticalBold size={48} className="text-secondary mb-4" />
         </div>
-        <div data-aos="fade-down-left" className="md:px-4 lg:w-1/2">
+        <div data-aos="fade-up" className="md:px-4 lg:w-1/2">
           <p className="text-base-900">
           Shreeju Investments is a leading financial services firm dedicated to empowering individuals and families in Naigaon, Vasai, and Virar to achieve their financial goals. We possess a wealth of experience in the financial industry, and our team of qualified professionals is passionate about providing personalized guidance and comprehensive solutions.
           </p>
@@ -101,12 +101,12 @@ export default function Home() {
 
       
       <section id="services">
-      <div className="bg-gradient-to-r from-primary to-secondary overflow-hidden">
+      <div className="bg-gradient-to-br from-primary to-secondary overflow-hidden">
         <div className="max-w-[85rem] px-4 py-10 sm:px-6 md:px-8 md:py-14 mx-auto">
           
           {/* Grid */}
           <div className="mt-5 md:my-8 grid md:grid-cols-3 gap-8 md:gap-12">
-            <div data-aos="fade-right" className="md:col-span-1">
+            <div data-aos="fade" className="md:col-span-1">
               <h2 className="font-bold text-2xl md:text-4xl text-base-100">
                 Our Services
               </h2>
@@ -266,14 +266,14 @@ export default function Home() {
           className="hover:scale-110 transition-all duration-500 card text-base-100 bg-secondary rounded-box  py-8 flex-grow place-items-center"
           target="_blank"
           rel="noopener noreferrer"
-          data-aos="fade-down-right"
+          data-aos="fade-down"
           >
     <FaWhatsappSquare size={36} />
     Contact us
   </a>
   <div className="divider lg:divider-horizontal">OR</div>
 
-  <a data-aos="fade-down-left" className="hover:scale-110 transition-all duration-500 text-base-100 card bg-primary rounded-box  py-8 flex-grow place-items-center" href={"tel:"+process.env.MOBILE_NUMBER}>
+  <a data-aos="fade-down" className="hover:scale-110 transition-all duration-500 text-base-100 card bg-primary rounded-box  py-8 flex-grow place-items-center" href={"tel:"+process.env.MOBILE_NUMBER}>
 
     <FaPhoneSquareAlt size={36} />
     Contact us 
@@ -283,11 +283,11 @@ export default function Home() {
 
 <section id="whyus" data-aos="fade" className="px-4 bg-base-200 py-16 md:px-8">
   <h2 data-aos="zoom-in-down" className="text-4xl font-bold mb-4 text-center">Why us?</h2>
-  <p data-aos="zoom-in-up" className="text-xl text-center opacity-90 mb-8">Here's why you should choose Shreeju Investments.</p>
+  <p data-aos="zoom-in-up" className="text-xl text-center opacity-90 mb-8">{`Here's why you should choose Shreeju Investments.`}</p>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div className="shadow-md text-center p-6 bg-base-200 hover:bg-base-300 transition duration-300 rounded-lg" data-aos="fade-up">
       <div className="mb-4 flex justify-center" >
-        <BiSupport className="text-primary w-12 h-12" />
+        <BiSupport  className="text-primary w-12 h-12" />
       </div>
       <h3 className="text-2xl font-bold mb-2">Experienced and Qualified Professionals</h3>
       <p className="opacity-90">Our team holds relevant qualifications and boasts extensive experience in the financial sector.</p>
@@ -322,7 +322,7 @@ export default function Home() {
 <section className="p-4 md:p-8 grid gap-4 grid-cols-1 md:grid-cols-2">
 
 
-<div data-aos="zoom-out-right" className="bg-base-200 p-4 md:p-8 rounded-2xl">
+<div data-aos="zoom-in" className="bg-base-200 p-4 md:p-8 rounded-2xl">
   
 
 <h1 className="text-2xl bold">Point of Contact</h1>
@@ -372,7 +372,7 @@ export default function Home() {
 
 
 
-        <div data-aos="zoom-out-left" className="bg-base-200 p-8 rounded-2xl">
+        <div data-aos="zoom-in" className="bg-base-200 p-8 rounded-2xl">
             <h2 className="text-4xl font-bold text-center ">Contact us now</h2>
             <ContactForm />
         </div>
