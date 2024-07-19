@@ -15,6 +15,12 @@ import { RiReactjsFill } from "react-icons/ri";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 
+import { BiNetworkChart } from "react-icons/bi";
+import { BsPersonCheck } from "react-icons/bs";
+import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
+
+
+
 
 import ContactForm from "@/components/contactForm";
 
@@ -36,29 +42,29 @@ export default function Home() {
      <section data-aos="fade">
       <div className="min-h-screen relative overflow-hidden flex hero">
         <img
-          src="https://pixabay.com/get/g67125ef96a1d614a68d9140e37e7328b32cce52a40df38903885e796d757230902f80b37108f0caba142ad898d41a900b50bf65f4f27551f0229aafc156af8676028b6d424c8f17648a9987d71f9a656_640.jpg"
-          alt="Healthy Family"
+          src="/images/investment1.jpg"
+          alt="Shreeju Investments"
            data-aos="fade"
           className="absolute inset-0 object-cover w-full h-full"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary via-current to-current opacity-90"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary opacity-90"></div>
         <div className="relative mx-auto md:py-4 py-12 px-4 md:px-8 pt-18 pb-10 flex flex-wrap justify-center items-center">
           <div  data-aos="fade" className="w-full md:w-7/12 px-4 flex flex-wrap justify-content-center">
-            <h1 className="text-4xl text-base-100 bg-base-content bg-opacity-60 py-2 px-4 font-bold text-left mb-8">
+            <h1 className="text-4xl text-base-100 bg-base-content bg-opacity-80 rounded-xl py-4 px-4 font-bold text-left mb-6">
             Grow Your Wealth Secure Your Future with Shreeju Investments
             </h1>
-            <h2 className="text-base-100 bg-base-content bg-opacity-50 py-2 px-4 text-xl mb-8">
+            <h2 className="text-base-100 bg-base-content bg-opacity-80 rounded-xl py-4 px-4 text-xl mb-6">
             Shreeju Investments is your one-stop solution for all your financial needs in Naigaon, Vasai, and Virar. We offer a comprehensive range of financial products and services to help you achieve your financial goals.
             </h2>
             <div className="flex justify-left">
-            <a className="btn border-primary" href={"tel:"+process.env.MOBILE_NUMBER}>
+            <a className="btn" href={"tel:"+process.env.MOBILE_NUMBER}>
                 Call Us
             </a>
 
             <a 
           
             href={"https://wa.me/"+process.env.WA_number}
-            className="btn ml-2"
+            className="btn ml-2 "
             target="_blank"
             rel="noopener noreferrer"
           
@@ -70,7 +76,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-5/12 px-4 md:py-4 py-12">
           <img
-              src="https://pixabay.com/get/g2e4a3e2de3c62cc88d4127aabdf0de7c0891aff786ce73d6378a31e0125f6006165147da685d91416c2d0604015a3a7a04ca4c159702fda4509fc65c9a39ee30fc15c187c8f24e4f2bb9dd6e58cfa4f4_640.png"
+              src="/images/family-hand.jpg"
               className="w-full rounded-xl"
             />
             
@@ -81,7 +87,7 @@ export default function Home() {
 
 
       <section className="py-12 md:py-24 bg-base-200">
-      <div data-aos="fade" className="container px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+      <div data-aos="fade" className="px-4 lg:px-8 flex flex-col lg:w-3/4 lg:m-auto lg:flex-row items-center">
         <div data-aos="fade-up" className="lg:w-1/2  lg:mb-0 lg:pr-8 flex lg:justify-end">
           <h2 className="text-2xl font-bold text-primary mb-4">WHO WE ARE</h2>
         </div>
@@ -287,14 +293,14 @@ export default function Home() {
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div className="shadow-md text-center p-6 bg-base-200 hover:bg-base-300 transition duration-300 rounded-lg" data-aos="fade-up">
       <div className="mb-4 flex justify-center" >
-        <BiSupport  className="text-primary w-12 h-12" />
+        <BsPersonCheck  className="text-primary w-12 h-12" />
       </div>
       <h3 className="text-2xl font-bold mb-2">Experienced and Qualified Professionals</h3>
       <p className="opacity-90">Our team holds relevant qualifications and boasts extensive experience in the financial sector.</p>
     </div>
     <div className="shadow-md text-center p-6 bg-base-200 hover:bg-base-300 transition duration-300 rounded-lg" data-aos="fade-up">
       <div className="mb-4 flex justify-center">
-        <LuClock className="text-primary w-12 h-12" />
+        <IoCheckmarkDoneCircleOutline className="text-primary w-12 h-12" />
         
       </div>
       <h3 className="text-2xl font-bold mb-2">Holistic Approach</h3>
@@ -309,7 +315,7 @@ export default function Home() {
     </div>
     <div className="shadow-md text-center p-6 bg-base-200 hover:bg-base-300 transition duration-300 rounded-lg" data-aos="fade-up">
     <div className="mb-4 flex justify-center">
-        <RiReactjsFill className="text-primary w-12 h-12" />
+        <BiNetworkChart className="text-primary w-12 h-12" />
       </div>
       <h3 className="text-2xl font-bold mb-2">Strong Partner Network</h3>
       <p className="opacity-90">We collaborate with leading financial institutions to provide you with a wide range of products and services.</p>
@@ -363,8 +369,9 @@ export default function Home() {
 
             <br />
 
+            <div className="w-full border rounded-xl">
             <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.141237962605!2d72.85877647402981!3d19.36303618190148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7955fc5b6f45d%3A0x9fe0324917bbbc9e!2sCoding%20Chaska%20(Computer%20Classes)!5e0!3m2!1sen!2sin!4v1696424627632!5m2!1sen!2sin" width="400" height="300" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            </div>
             <br />
 
 
