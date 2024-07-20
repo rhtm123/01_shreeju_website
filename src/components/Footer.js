@@ -29,11 +29,11 @@ function Footer() {
 
     <div >
 
-        <footer  className=" border-t-2 footer footer-center text-base-300 bg-primary opacity-90 p-10" >
+        <footer  className=" border-t footer footer-center bg-base-300 opacity-90 p-10" >
   <aside data-aos="fade" >
     <div className='py-4'>
       <span>Select Theme: </span>
-      <select className="select bg-primary select-sm select-bordered border-base-200" value={theme} onChange={e => setTheme(e.target.value)}>
+      <select className="select  select-sm select-bordered border-base-200" value={theme} onChange={e => setTheme(e.target.value)}>
         <option value="system">System</option>
         <option  value="light">Light</option>
         <option value="dark">Dark</option>
@@ -47,7 +47,7 @@ function Footer() {
   
 </footer>
 
-<footer className="footer footer-center p-4 bg-primary text-base-content">
+<footer className="footer footer-center p-4 bg-base-300">
   <div>
     <p>All rights reserved | <span id="gt"></span></p>
   </div>

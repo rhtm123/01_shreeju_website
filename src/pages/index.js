@@ -6,7 +6,9 @@ import { PiLineVerticalBold } from "react-icons/pi";
 import { MdOutlineHorizontalRule } from "react-icons/md";
 
 import { BiSupport } from "react-icons/bi";
-import { LuClock } from "react-icons/lu";
+import { GoHome } from "react-icons/go";
+
+// import { LuClock } from "react-icons/lu";
 
 import { CgWebsite } from "react-icons/cg";
 import { RiReactjsFill } from "react-icons/ri";
@@ -124,7 +126,7 @@ export default function Home() {
             <div className="md:col-span-2">
               <div className="grid sm:grid-cols-2 gap-8 md:gap-8">
                 {/* Icon Block */}
-                <div data-aos="flip-right" className="flex bg-base-200 hover:shadow-2xl transition duration-300 rounded-lg p-4 gap-x-5">
+                <div data-aos="fade" className="flex bg-base-200 hover:shadow-2xl transition duration-300 rounded-lg p-4 gap-x-5">
                   {/* <svg
                     className="flex-shrink-0 mt-1 size-6 text-secondary"
                     xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +162,7 @@ export default function Home() {
                 {/* End Icon Block */}
                 {/* Icon Block */}
                 
-                <div data-aos="flip-right" className="hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
+                <div data-aos="fade" className="hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
                   {/* <svg
                     className="flex-shrink-0 mt-1 size-6 text-secondary"
                     xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +195,7 @@ export default function Home() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
-                <div data-aos="flip-right" className=" hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
+                <div data-aos="fade" className=" hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
                   {/* <svg
                     className="flex-shrink-0 mt-1 size-6 text-secondary"
                     xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +225,7 @@ export default function Home() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
-                <div data-aos="flip-right" className="hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
+                <div data-aos="fade" className="hover:shadow-2xl transition duration-300 flex gap-x-5 bg-base-200 rounded-lg p-4">
                   {/* <svg
                     className="flex-shrink-0 mt-1 size-6 text-secondary"
                     xmlns="http://www.w3.org/2000/svg"
@@ -325,21 +327,21 @@ export default function Home() {
 </section>
 
 
-<section className="p-4 md:p-8 grid gap-4 grid-cols-1 md:grid-cols-2">
+<section className="p-4 md:p-8 grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2">
 
 
 <div data-aos="zoom-in" className="bg-base-200 p-4 md:p-8 rounded-2xl">
   
 
-<h1 className="text-2xl bold">Point of Contact</h1>
+<h2 className="text-3xl font-bold">Point of Contact</h2>
 
 
 
-        <div className="">
+        <div className="py-2">
               
               <div className="grow">
-                <p className="mb-1 font-bold">
-                  Support
+                <p className="mb-1 flex items-center gap-2 font-bold">
+                  <BiSupport className="text-primary" /> <span>Support</span>
                 </p>
                 <p className="">
                   codingchaska.info@gmail.com
@@ -351,12 +353,11 @@ export default function Home() {
             </div>
 
 
-          <br />
-            <div className="">
+        <div className="">
               
               <div className="grow">
-                <p className="mb-1 font-bold">
-                  Address
+                <p className="mb-1 flex items-center gap-2 font-bold">
+                <GoHome className="text-primary" /> <span>Address</span>
                 </p>
                 <p className="">
                   005/3, Jai Vijay Nagar Building
@@ -370,9 +371,8 @@ export default function Home() {
             <br />
 
             <div className="w-full border rounded-xl">
-            <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.141237962605!2d72.85877647402981!3d19.36303618190148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7955fc5b6f45d%3A0x9fe0324917bbbc9e!2sCoding%20Chaska%20(Computer%20Classes)!5e0!3m2!1sen!2sin!4v1696424627632!5m2!1sen!2sin" width="400" height="300" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className="w-full rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.141237962605!2d72.85877647402981!3d19.36303618190148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7955fc5b6f45d%3A0x9fe0324917bbbc9e!2sCoding%20Chaska%20(Computer%20Classes)!5e0!3m2!1sen!2sin!4v1696424627632!5m2!1sen!2sin" width="auto" height="300" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <br />
 
 
             </div>
@@ -380,7 +380,7 @@ export default function Home() {
 
 
         <div data-aos="zoom-in" className="bg-base-200 p-8 rounded-2xl">
-            <h2 className="text-4xl font-bold text-center ">Contact us now</h2>
+            <h2 className="text-3xl font-bold text-center ">Contact us now</h2>
             <ContactForm />
         </div>
 </section>
