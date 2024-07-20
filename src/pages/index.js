@@ -35,9 +35,9 @@ export default function Home() {
     <main>
       <Head>
 
-        <title>Shreeju Investments - Financial Planning, Insurance & Investments in Naigaon, Vasai, Virar</title>
+        <title>Shreeju Investments - Financial Planning, Insurance & Investments in Naigaon, Vasai, Virar & Mumbai</title>
 
-        <meta name="description" content="Shreeju Investments offers financial planning, life & health insurance, investments & tax services in Naigaon, Vasai, Virar. Grow your wealth, secure your future" />
+        <meta name="description" content="Shreeju Investments offers financial planning, life & health insurance, investments & tax services in Naigaon, Vasai, Virar & Mumbai. Grow your wealth, secure your future" />
         <meta name="keywords" content="Investments, Finance, Mutual Funds, Demat Account, Insurance" />
 
       </Head>
@@ -63,8 +63,7 @@ export default function Home() {
                 Call Us
             </a>
 
-            <a 
-          
+            <a
             href={"https://wa.me/"+process.env.WA_number}
             className="btn ml-2 "
             target="_blank"
@@ -101,7 +100,7 @@ export default function Home() {
         </div>
         <div data-aos="fade-up" className="md:px-4 lg:w-1/2">
           <p className="text-base-900">
-          Shreeju Investments is a leading financial services firm dedicated to empowering individuals and families in Naigaon, Vasai, and Virar to achieve their financial goals. We possess a wealth of experience in the financial industry, and our team of qualified professionals is passionate about providing personalized guidance and comprehensive solutions.
+          Shreeju Investments is a leading financial services firm dedicated to empowering individuals and families in Naigaon, Vasai, Virar & Mumbai to achieve their financial goals. We possess a wealth of experience in the financial industry, and our team of qualified professionals is passionate about providing personalized guidance and comprehensive solutions.
           </p>
         </div>
       </div>
@@ -344,10 +343,10 @@ export default function Home() {
                   <BiSupport className="text-primary" /> <span>Support</span>
                 </p>
                 <p className="">
-                  codingchaska.info@gmail.com
+                shreejuinvestments@gmail.com
                 </p>
-                <p className="">
-                  +91 9518-90-1902, +91 9370-39-4747
+                <p className="py-1">
+                  +91 8108-230-539, +91 877-9797-562
                 </p>
               </div>
             </div>
@@ -360,11 +359,9 @@ export default function Home() {
                 <GoHome className="text-primary" /> <span>Address</span>
                 </p>
                 <p className="">
-                  005/3, Jai Vijay Nagar Building
+                  2B-1005, Sunteck WestWorld, Naigaon East, Mumbai
                 </p>
-                <p className="">
-                  Opposite Seven Square School, Naigaon East, Mumbai
-                </p>
+                
               </div>
             </div>
 
