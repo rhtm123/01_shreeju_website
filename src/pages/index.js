@@ -56,7 +56,7 @@ export default function Home() {
             Grow Your Wealth Secure Your Future with Shreeju Investments
             </h1>
             <h2 className="text-base-100 bg-base-content bg-opacity-80 rounded-xl py-4 px-4 text-xl mb-6">
-            Shreeju Investments is your one-stop solution for all your financial needs in Naigaon, Vasai, and Virar. We offer a comprehensive range of financial products and services to help you achieve your financial goals.
+            Shreeju Investments is your one-stop solution for all your financial needs in Naigaon, Vasai, Virar & Mumbai. We offer a comprehensive range of financial products and services to help you achieve your financial goals.
             </h2>
             <div className="flex justify-left">
             <a className="btn" href={"tel:"+process.env.MOBILE_NUMBER}>
