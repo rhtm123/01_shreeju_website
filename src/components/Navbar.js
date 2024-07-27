@@ -37,7 +37,12 @@ function Navbar(){
 
 
     </div>
-    <a className="btn btn-ghost text-xl">Shreeju Investments</a>
+    <a className="btn btn-ghost text-xl">
+      <img width={36} src="/images/logo.png" />
+      Shreeju Investments
+      
+      </a>
+
   </div>
 
 
