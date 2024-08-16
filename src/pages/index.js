@@ -64,7 +64,7 @@ export default function Home() {
             </a>
 
             <a
-            href={"https://wa.me/"+process.env.WA_number}
+            href={"https://wa.me/"+process.env.WA_NUMBER}
             className="btn ml-2 "
             target="_blank"
             rel="noopener noreferrer"

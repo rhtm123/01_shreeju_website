@@ -6,7 +6,7 @@ const WhatsApp = () => {
 
     return(
         <a
-        href={"https://wa.me/"+process.env.WA_number}
+        href={"https://wa.me/"+process.env.WA_NUMBER}
         className="fixed bottom-4 right-4 z-50"
         target="_blank"
         rel="noopener noreferrer"
